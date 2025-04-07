@@ -3,7 +3,7 @@
 
 A dynamic and interactive web application that visualizes the process of popular sorting algorithms using animated bars. The visualizer helps users understand how sorting algorithms work by watching them in action with customizable speed and dataset size.
 
-## ✨ Features
+##  Features
 
 - Visualize **Bubble Sort**, **Quick Sort**, **Merge Sort**, and **Selection Sort**
 - Customize:
@@ -13,13 +13,13 @@ A dynamic and interactive web application that visualizes the process of popular
   - Generate a random dataset
   - Start the sorting animation
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - **HTML5**: Structure and layout
 - **CSS3**: Styling and animation classes
 - **Vanilla JavaScript**: Sorting logic, DOM manipulation, and animation
 
-## 📁 File Structure
+##  File Structure
 
 ```plaintext
 ├── SortingVisualazier.html   # Main HTML structure and UI controls
@@ -27,7 +27,7 @@ A dynamic and interactive web application that visualizes the process of popular
 └── SortingVisualazier.js     # Sorting algorithms and visualization logic
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repo or download the files
 ```bash
@@ -37,7 +37,7 @@ git clone https://github.com/sk1nny04/SortingVisualizer
 ### 2. Open the HTML file
 Just open `SortingVisualazier.html` in your favorite browser.
 
-## 🛠️ How It Works
+##  How It Works
 
 - Bars are rendered based on the input size.
 - When a sorting algorithm is triggered:
@@ -45,7 +45,7 @@ Just open `SortingVisualazier.html` in your favorite browser.
   - Their position and color change to reflect the sorting process.
 - Classes like `.selected`, `.pivot`, `.min`, `.sorted` help indicate status during animation.
 
-## 🎨 CSS Class Highlights
+##  CSS Class Highlights
 
 - `.bars`: Base class for all bars
 - `.selected`: Bars being compared
@@ -53,7 +53,7 @@ Just open `SortingVisualazier.html` in your favorite browser.
 - `.min`: Current minimum in Selection Sort
 - `.sorted`: Elements that are in final sorted position
 
-## 🧪 Future Improvements
+##  Future Improvements
 
 - Add more sorting algorithms (e.g., Heap Sort, Insertion Sort)
 - Add play/pause functionality
