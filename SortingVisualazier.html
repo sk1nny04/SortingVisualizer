@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="SortingVisualazier.css">
+    </head>
+        
+
+    <body onload="updateDataPoints()">
+            
+        <input type="radio" name="sort" value="bubbleSort" checked="true">
+        <label for="bubbleSort">Bubble Sort</label>
+        <input type="radio" name="sort" value="quickSort">
+        <label for="quickSort">Quick Sort</label>
+        <input type="radio" name="sort" value="mergeSort">
+        <label for="mergeSort">Merge Sort</label>
+        <input type="radio" name="sort" value="selectionSort">
+        <label for="selectionSort">Selection Sort</label>
+        
+        <br/>
+        <br/>
+
+        <label for="dataPoints">Data Points</label>
+        <input id="dataPoints" type="number" name="dataPoints" 
+            min="10" max="100" value="10"  onchange="updateDataPoints()">
+
+        <label for="speed">Speed</label>
+        <select name="speed" id="speed" onchange="updateSpeed()">
+            <option value=1>1x</option>
+            <option value=0.5>2x</option>
+            <option value=0.25>4x</option>
+            <option value=0.125>8x</option>
+            <option value=0.0625>16x</option>
+            <option value=0>Very Fast</option>
+            <option value=-1>Real Time</option>
+        </select>
+
+        <br/>
+        <br/>
+
+        <div id="numContainer"></div>
+
+        <button id="fill" onclick="fill()">Random</button>
+        
+        <button id="sort" onclick="sort()">Sort!</button>
+
+        <script src="SortingVisualazier.js"></script>
+    </body>
+</html>
