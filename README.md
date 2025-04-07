@@ -31,7 +31,7 @@ A dynamic and interactive web application that visualizes the process of popular
 
 ### 1. Clone the repo or download the files
 ```bash
-git clone https://github.com/sk1nny04/sorting-visualizer
+git clone https://github.com/sk1nny04/SortingVisualizer
 ```
 
 ### 2. Open the HTML file
